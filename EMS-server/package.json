@@ -1,0 +1,45 @@
+{
+  "name": "employeemanagementsoftware",
+  "version": "1.0.0",
+  "author": "Eliran Natan",
+  "description": "",
+  "main": "handler.js",
+  "config": {
+    "provider": "aws",
+    "stage": "dev",
+    "region": "ap-south-1",
+    "profile": "default",
+    "key": "S3RVER",
+    "secret": "S3RVER"
+  },
+  "scripts": {
+    "clean": "npm cache clean --force",
+    "sls-config": "serverless config credentials --provider $npm_package_config_provider -k $npm_package_config_key -s $npm_package_config_secret --profile $npm_package_config_profile --overwrite",
+    "sls-deploy": "sls deploy --stage $npm_package_config_stage --region $npm_package_config_region",
+    "sls-offline": "nodemon -e js  --exec sls offline",
+    "start": "npm run clean && npm run sls-offline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.930.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.4.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3",
+    "oauth2-server": "^3.1.1",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "serverless-offline": "^12.0.4",
+    "serverless-s3-local": "^0.6.1"
+  }
+}

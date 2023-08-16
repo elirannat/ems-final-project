@@ -1,0 +1,36 @@
+const mongoose = require('mongoose');
+
+const model = mongoose.model('Company', {
+    _id: mongoose.Schema.Types.ObjectId,
+    companyId: mongoose.Schema.Types.ObjectId,
+    companyName: { type: String, required: true },
+    // ownerFirstname: { type: String },
+    // ownerLastname: { type: String },
+    email: { type: String },
+    password: { type: String, required: true },
+    mobile: { type: Number },
+    // address: { type: String },
+    // salaryEnabled: { type: Boolean },
+    // leaveEnabled: { type: Boolean },
+    status: { type: String },
+    // type: { type: String },
+    // workingDays: { type: Number },
+    // workingHours: { type: Number },
+    // breakHours: { type: Number },
+    createdAt: { type: Date },
+    updatedAt: { type: Date },
+    website: { type: String },
+    other: { type: String },
+    address01: { type: String },
+    address02: { type: String },
+    landmark: { type: String },
+    selectedCountry: { type: String },
+    selectedState: { type: String },
+    selectedCity: { type: String },
+    pin: { type: Number },
+    gstno: { type: String },
+    othertax01: { type: String },
+    othertax02: { type: String },
+});
+
+module.exports = model;
