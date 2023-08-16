@@ -1,0 +1,50 @@
+button.add.bg-primary {
+    padding: 8px 6px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: medium;
+    border: none;
+}
+
+button.edit.bg-primary {
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+button.delete.bg-primary {
+    border: none;
+    border-radius: 3px;
+}
+
+th.action {
+    text-align: center;
+   
+    padding-bottom: 21px;
+}
+
+td.srno {
+    text-align: center;
+}
+.edt{
+    border-radius: 5px;
+    border: none;
+}
+.dlt{
+    border-radius: 5px;
+    border: none;
+}
+
+i.fas.fa-edit {
+    color: black;
+}
+
+i.fas.fa-trash {
+    cursor: pointer;
+}
+.tableheader{
+    text-align: center;
+}
+.tabledata{
+    text-align: center;
+}

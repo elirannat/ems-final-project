@@ -1,0 +1,353 @@
+
+
+textarea.w-100 {
+    border: 1px solid #1f4d7b;
+}
+button.addbtn.bg-primary.w-100 {
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+input.form-control.select2 {
+    border: 1px solid #1f4d7b;
+}
+
+.content-header {
+    padding: 6px 0.5rem;
+}
+
+button.rmvbtn.bg-danger {
+    border: none;
+    border-radius: 4px;
+}
+
+.rmvbtn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+}
+label.empty {
+    margin-top: 18px;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #1f4d7b;
+    border-radius: .25rem;
+    box-shadow: inset 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.preview{
+    margin-top: -20px;
+}
+
+.country{
+    border: none;
+    border: 1px solid #1f4d7b;
+    border-radius: .25rem;
+}
+.state{
+    border: none;
+    border: 1px solid #1f4d7b;
+    border-radius: .25rem;
+}
+.city{
+    border: none;
+    border: 1px solid #1f4d7b;
+    border-radius: .25rem;
+}
+.css-13cymwt-control {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: default;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: 0!important;
+    position: relative;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    background-color: hsl(0, 0%, 100%);
+    /* border-color: hsl(0deg 0% 100%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px; */
+    box-sizing: border-box;
+}
+
+button.btn.btn-danger.cancelbtn {
+    margin-bottom: 20px;
+}
+
+button.btn.btn-primary.submitbtn {
+    justify-content: s;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.btns {
+    text-align: center;
+    /* display: list-item; */
+    justify-content: space-evenly;
+}
+
+.myimg {
+    margin-top: 10px;
+}
+
+p.imgname {
+
+    padding-left: 15px;
+}
+
+.rmvdiv {
+    margin-top: -93px;
+    margin-left: 131px;
+}
+.imgsection {
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-bottom: -58px;
+}
+.form-group.status {
+    margin-top: 51px;
+}
+
+.citypin{
+    display: flex;
+}
+
+.citypin {
+    display: flex;
+    justify-content: stretch;
+    margin-top: 29px;
+    margin-bottom: 22px;
+}
+.statecountry {
+    display: flex;
+    justify-content: stretch;
+    margin-top: 29px;
+    margin-bottom: 22px;
+}
+label.pin1 {
+    margin-left: 45px;
+}
+
+input.pin {
+    border: 1px solid #1f4d7b;
+    border-radius: 0.25rem;
+    margin-left: 8px;
+    width: 40%;
+}
+
+input.city {
+    border: 1px solid #1f4d7b;
+    border-radius: 0.25rem;
+    margin-left: 8px;
+    width: 40%;
+}
+
+.state {
+    border: none;
+    border: 1px solid #1f4d7b;
+    border-radius: .25rem;
+    width: 40%;
+    margin-left: 3px;
+}
+.country {
+    border: none;
+    border: 1px solid #1f4d7b;
+    border-radius: .25rem;
+    width: 40%;
+    margin-left: 8px;
+}
+
+
+label.country1 {
+    margin-left: 7px;
+}
+
+.card-body.taxbody {
+    padding-bottom: 209px;
+}
+.btnss {
+    margin-left: 17px;
+}
+/* label.custom-file-label.form-control.choose {
+    width: 101%;
+} */
+
+.imgsection {
+    margin-top: -50px;
+    /* margin-left: 89px; */
+    margin-bottom: -58px;
+}
+/* .imgsection1 {
+    margin-top: -50px;
+    margin-left: 89px;
+    margin-bottom: -58px;
+} */
+.myimg {
+    display: flex;
+}
+/* .myimg {
+    display: flex;
+    width: 100%;
+    margin-top: -41px;
+    margin-left: 168px;
+}
+label.custom-file-label.form-control.choose {
+    margin-top: 15px;
+} */
+
+.mainimg {
+    margin-top: -50px;
+    /* margin-left: 89px; */
+    /* margin-bottom: -58px; */
+}
+
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    width: 270px !important;
+    margin-top: 23px;
+}
+
+.card.card-primary.mainsection01 {
+    padding-bottom: 27px;
+}
+
+.section2.col-md-4 {
+    padding-left: 36px;
+}
+
+.grouplogo.input-group {
+    margin-top: 41px;
+}
+
+label.logo01 {
+    position: absolute;
+    margin-top: 2px;
+}
+.css-13cymwt-control {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: default;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: 0!important;
+    position: relative;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(238.71deg 54.36% 34.99%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+.css-t3ipsp-control:hover {
+    border:1px solid #1f4d7b !important;
+}
+
+button.btn.btn-primary.submitbtn {
+    color: white;
+    background-color: blue;
+}
+
+button.btn.btn-danger.cancelbtn {
+    color: white;
+    background-color: red;
+}
+
+input#vehicle1 {
+    width: 20px;
+}
+input#vehicle2 {
+    width: 20px;
+}
+input#vehicle3 {
+    width: 20px;
+}
+input#vehicle4 {
+    width: 20px;
+}
+input#vehicle5 {
+    width: 20px;
+}
+input#vehicle6 {
+    width: 20px;
+}
+
+.yagnesh {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 100%;
+}
+
+label {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 534px) {
+    .yagnesh {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .employee{
+        padding-left: 10px;
+    }
+    .updateuser{
+        padding-left: 10px;
+    }
+    .deleteuser{
+        padding-left: 10px;
+    }
+    
+  }

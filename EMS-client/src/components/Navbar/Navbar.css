@@ -1,0 +1,8 @@
+li.nav-item.dropdown {
+    top: 9px;
+}
+
+.fa-globe:before {
+    content: "\f0ac";
+    color: #000000 !important;
+}
