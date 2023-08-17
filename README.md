@@ -39,13 +39,22 @@ EMS-server:
 3. In server we use the serverless offline and nodemon.
 4. We give the author and packages versions details in package.json file.
 
-## Need to run both of these projects !!!
+## The installation must be performed according to the versions written here only, in order for this project to work properly!
 
 Instruction:
 
 1. Need node version 16.15.0 in your system.
+
+Download link:
+https://nodejs.org/dist/v16.15.0/node-v16.15.0-x64.msi
+
 2. Need npm version of 8.5.5.
+
+Command: npm i npm@8.5.5
+
 3. Need mongoose version of 5.13.14.
+
+Command: npm i mongoose@5.13.14
 
 Remark: if not have mongoose than run "npm install mongoose"
 
@@ -78,4 +87,4 @@ In server side we manage the API with logics and the project data with mongoDB d
 In server we use the serverless offline and nodemon and we give the author and packeges versions details in package.json file.
 
 
-## That's it.
+## That's it, enjoy the review of this project.
