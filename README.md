@@ -77,4 +77,5 @@ In server side we manage the API with logics and the project data with mongoDB d
 
 In server we use the serverless offline and nodemon and we give the author and packeges versions details in package.json file.
 
-That's it.
+
+## That's it.
