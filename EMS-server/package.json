@@ -4,6 +4,7 @@
   "author": "Eliran Natan",
   "description": "",
   "main": "handler.js",
+  "license": "ISC",
   "config": {
     "provider": "aws",
     "stage": "dev",
@@ -21,7 +22,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "engines": {
+  "node": "16.15.0",
+  "npm": "8.5.5"
+  },
   "dependencies": {
     "aws-sdk": "^2.930.0",
     "body-parser": "^1.19.2",
@@ -30,7 +34,7 @@
     "express": "^4.17.3",
     "express-fileupload": "^1.4.0",
     "moment": "^2.29.1",
-    "mongoose": "^5.12.14",
+    "mongoose": "^5.13.14",
     "morgan": "^1.10.0",
     "multer": "^1.4.4",
     "nodemailer": "^6.7.3",
