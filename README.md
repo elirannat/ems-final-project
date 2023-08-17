@@ -40,6 +40,10 @@ Instruction:
 Remark: if not have mongoose than run "npm install mongoose"
 
 4. Need MongoDB shell version v5.0.13.
+
+Download link:
+https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.13.zip
+
 5. after install the mongodb paste this url to connect the database.
 
 Remark: mongodb://localhost:27017/etmPayroll?retryWrites=false
