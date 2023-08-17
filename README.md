@@ -46,15 +46,18 @@ Instruction:
 1. Need node version 16.15.0 in your system.
 
 Download link:
+
 https://nodejs.org/dist/v16.15.0/node-v16.15.0-x64.msi
 
 2. Need npm version of 8.5.5.
 
-Command: npm i npm@8.5.5
+Command: 
+## npm i npm@8.5.5
 
 3. Need mongoose version of 5.13.14.
 
-Command: npm i mongoose@5.13.14
+Command: 
+## npm i mongoose@5.13.14
 
 Remark: if not have mongoose than run "npm install mongoose"
 
