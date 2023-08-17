@@ -47,6 +47,7 @@ You can download the MongoDB Shell binary from the official MongoDB website. Her
 a) Visit the MongoDB download page: https://www.mongodb.com/try/download/shell
 
 b) Choose your operating system (Windows, macOS, or Linux) and download the appropriate binary for your system.
+
 c) After downloading, extract the contents of the downloaded package to a directory of your choice.
 
 5. after install the mongodb paste this url to connect the database.
