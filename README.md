@@ -71,7 +71,11 @@ https://www.mongodb.com/try/download/shell
 
 Remark: mongodb://localhost:27017/etmPayroll?retryWrites=false
 
-6. Need postman regular version.
+6. Need Postman regular version.
+
+Remark: This is the download link:
+
+https://dl.pstmn.io/download/latest/win64
 
 ## Installation - Available Scripts - Commands to run
 
