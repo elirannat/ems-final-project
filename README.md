@@ -41,8 +41,12 @@ Remark: if not have mongoose than run "npm install mongoose"
 
 4. Need MongoDB shell version v5.0.13.
 
-Download link:
-https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.13.zip
+Remark: Download MongoDB Shell:
+You can download the MongoDB Shell binary from the official MongoDB website. Here's how:
+
+a. Visit the MongoDB download page: https://www.mongodb.com/try/download/shell
+b. Choose your operating system (Windows, macOS, or Linux) and download the appropriate binary for your system.
+c. After downloading, extract the contents of the downloaded package to a directory of your choice.
 
 5. after install the mongodb paste this url to connect the database.
 
