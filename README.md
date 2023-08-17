@@ -1,6 +1,16 @@
 # Employee Management System
 
-Final Project to HackerU by Eliran Natan
+Final Project to HackerU
+
+## Author
+
+👨‍💼 **Eliran Natan**
+
+Eliran Natan is the architect and driving force behind this ambitious project. With an unyielding commitment to excellence and a boundless enthusiasm for software development, Eliran has invested countless hours to bring this complex endeavor to life. As a college project, this work stands as a testament to his determination and passion for crafting elegant solutions to intricate challenges.
+
+Throughout the development journey, Eliran's expertise in React and his ability to navigate intricate design patterns have been instrumental in realizing the project's potential. He has meticulously honed both the technical and creative aspects, resulting in an application that seamlessly blends functionality and aesthetics.
+
+Connect with Me on [LinkedIn](https://www.linkedin.com/in/eliran-natan/) to explore the depths of his dedication to innovation and quality.
 
 ## Details
 
@@ -41,14 +51,9 @@ Remark: if not have mongoose than run "npm install mongoose"
 
 4. Need MongoDB shell version v5.0.13.
 
-Remark: Download MongoDB Shell:
-You can download the MongoDB Shell binary from the official MongoDB website. Here's how:
+Remark: Download MongoDB Shell via this link:
 
-a) Visit the MongoDB download page: https://www.mongodb.com/try/download/shell
-
-b) Choose your operating system (Windows, macOS, or Linux) and download the appropriate binary for your system.
-
-c) After downloading, extract the contents of the downloaded package to a directory of your choice.
+https://www.mongodb.com/try/download/shell
 
 5. after install the mongodb paste this url to connect the database.
 
@@ -72,12 +77,4 @@ In server side we manage the API with logics and the project data with mongoDB d
 
 In server we use the serverless offline and nodemon and we give the author and packeges versions details in package.json file.
 
-## Author
-
-👨‍💼 **Eliran Natan**
-
-Eliran Natan is the architect and driving force behind this ambitious project. With an unyielding commitment to excellence and a boundless enthusiasm for software development, Eliran has invested countless hours to bring this complex endeavor to life. As a college project, this work stands as a testament to his determination and passion for crafting elegant solutions to intricate challenges.
-
-Throughout the development journey, Eliran's expertise in React and his ability to navigate intricate design patterns have been instrumental in realizing the project's potential. He has meticulously honed both the technical and creative aspects, resulting in an application that seamlessly blends functionality and aesthetics.
-
-Connect with Me on [LinkedIn](https://www.linkedin.com/in/eliran-natan/) to explore the depths of his dedication to innovation and quality.
+That's it.
